@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyFirstSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-01-13T18:42:18" hostname="DESKTOP-T6AGK41" time="0.154">
+  <properties/>
+  <testcase name="let's try this!" classname="MyFirstSpec" time="0.154">
+    <failure message="Condition not satisfied:&#10;&#10;result + tony == &quot;Hello World&quot;&#10;|      | |    |&#10;|      | tony false&#10;|      |      4 differences (73% similarity)&#10;|      |      Hello World(tony)&#10;|      |      Hello World(----)&#10;|      Hello Worldtony&#10;Hello World&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result + tony == &quot;Hello World&quot;
+|      | |    |
+|      | tony false
+|      |      4 differences (73% similarity)
+|      |      Hello World(tony)
+|      |      Hello World(----)
+|      Hello Worldtony
+Hello World
+
+	at MyFirstSpec.let's try this!(MyFirstSpec.groovy:14)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
