@@ -19,7 +19,6 @@ dependencies {
     testImplementation "org.spockframework:spock-core:1.0-groovy-2.4"
 
 
-
     //testCompile "org.spockframework:spock-junit4" // you can remove this if your code does not rely on old JUnit 4 rules
     // optional dependencies for using Spock
     testCompile "org.hamcrest:hamcrest-core:1.3" // only necessary if Hamcrest matchers are used
